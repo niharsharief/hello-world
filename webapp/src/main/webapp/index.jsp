@@ -5,9 +5,7 @@
     <input class="input-field" type="text" placeholder="Username" name="usrnm">
   </div>
 
-  <div class="input-container">
-    <i class="fa fa-envelope icon"></i>
-    <input class="input-field" type="text" placeholder="password" name="password">
+  
   </div>
   
   <div class="input-container">
