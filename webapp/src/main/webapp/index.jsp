@@ -4,10 +4,10 @@
     <i class="fa fa-user icon"></i>
     <input class="input-field" type="text" placeholder="Username" name="usrnm">
   </div>
-
-  
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
   </div>
-  
   <div class="input-container">
     <i class="fa fa-envelope icon"></i>
     <input class="input-field" type="text" placeholder="Gender" name="Gender">
