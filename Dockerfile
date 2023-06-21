@@ -1,4 +1,4 @@
-FROM ubuntu 
+FROM ubuntu
 RUN apt-get update
 RUN apt-get -y install docker
 RUN apt-get -y install apache2
