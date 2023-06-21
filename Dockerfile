@@ -1,6 +1,6 @@
-FROM tomcat:latest
-RUN cp -R  /usr/local/tomcat/webapps.dist/*  /usr/local/tomcat/webapps
-COPY ./*.war /usr/local/tomcat/webapps
-
-
-
+FROM ubuntu 
+RUN apt-get update
+RUN apt-get -y install apache2
+ADD . /var/www/html
+ENTRYPOINT apachectl -D FOREGROUND
+ENV name dockerfile
